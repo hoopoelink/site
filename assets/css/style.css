@@ -690,8 +690,8 @@ section {
   border-color: #eaecef;
 }
 
-.services .icon-box:hover h4 a {
-  color: #16df7e;
+.services .services-title {
+  color: #2d9362;
 }
 
 .services .sub-desc {
@@ -699,7 +699,7 @@ section {
 }
 
 .services .services-img {
-  height: 205px;
+  height: 10.938rem;
 }
 
 /*--------------------------------------------------------------

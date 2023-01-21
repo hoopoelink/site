@@ -251,4 +251,14 @@
    */
   new PureCounter();
 
+
+  /**
+   * Other Scripts
+   */
+
+  document.getElementById('contactLocation').addEventListener('click', (e) => {
+    var link = e.target.dataset.link;
+    console.log(link)
+    window.open(link, '_blank');
+  })
 })()
