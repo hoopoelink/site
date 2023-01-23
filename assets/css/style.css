@@ -702,6 +702,68 @@ section {
   height: 10.938rem;
 }
 
+.pricing .content-body {
+  text-align: center;
+  border: 1px solid #fff;
+  padding: 80px 20px;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+}
+
+.pricing .content-body h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.pricing .content-body ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pricing .content-body ul li {
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.pricing .content-body ul li i {
+  color: #14c871;
+}
+
+.pricing .prices {
+  padding: 15px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.pricing i.bi-x-circle,
+.pricing li.not-included {
+  color: grey !important;
+}
+
+.pricing li.not-included {
+  text-decoration: line-through;
+}
+
+.pricing .btn-get-started {
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 30px 10px 30px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #16df7e;
+}
+
+.pricing .row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -1183,6 +1245,10 @@ section {
 
 .contact .php-email-form button[type=submit]:hover {
   background: #206bfb;
+}
+
+.contact .contact-link {
+  pointer-events: visible;
 }
 
 @-webkit-keyframes animate-loading {
